@@ -1,0 +1,26 @@
+到https://git-scm.com/downloads下载安装
+
+下面是到选定文件夹创建demo1这个库
+git init --bare ./demo1
+
+cd 到另外的指定文件夹
+
+打开另外的指定文件夹，然后copy之前的建立好的demo1库
+git clone 。。。。（copy的库）
+
+git status
+
+
+git add 工作区添加到暂存库
+
+git rm (-f有时候用) --cached code2.txt 不跟踪code2.txt文档\
+
+git commit -m "add two more text"  提交到仓库\
+
+git log  （--graph看各个项目关系）
+
+git branch 新建分支
+git branch -v 查看分支
+git checkout 转换到这个分支
+
+aaa
